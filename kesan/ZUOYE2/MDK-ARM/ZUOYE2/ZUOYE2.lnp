@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"zuoye2\startup_stm32f103xb.o"
+"zuoye2\main.o"
+"zuoye2\gpio.o"
+"zuoye2\usart.o"
+"zuoye2\stm32f1xx_it.o"
+"zuoye2\stm32f1xx_hal_msp.o"
+"zuoye2\stm32f1xx_hal_gpio_ex.o"
+"zuoye2\stm32f1xx_hal_tim.o"
+"zuoye2\stm32f1xx_hal_tim_ex.o"
+"zuoye2\stm32f1xx_hal_uart.o"
+"zuoye2\stm32f1xx_hal.o"
+"zuoye2\stm32f1xx_hal_rcc.o"
+"zuoye2\stm32f1xx_hal_rcc_ex.o"
+"zuoye2\stm32f1xx_hal_gpio.o"
+"zuoye2\stm32f1xx_hal_dma.o"
+"zuoye2\stm32f1xx_hal_cortex.o"
+"zuoye2\stm32f1xx_hal_pwr.o"
+"zuoye2\stm32f1xx_hal_flash.o"
+"zuoye2\stm32f1xx_hal_flash_ex.o"
+"zuoye2\stm32f1xx_hal_exti.o"
+"zuoye2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ZUOYE2\ZUOYE2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ZUOYE2.map" -o ZUOYE2\ZUOYE2.axf

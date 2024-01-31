@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"exti8\startup_stm32f103xb.o"
+"exti8\main.o"
+"exti8\gpio.o"
+"exti8\stm32f1xx_it.o"
+"exti8\stm32f1xx_hal_msp.o"
+"exti8\stm32f1xx_hal_gpio_ex.o"
+"exti8\stm32f1xx_hal_tim.o"
+"exti8\stm32f1xx_hal_tim_ex.o"
+"exti8\stm32f1xx_hal.o"
+"exti8\stm32f1xx_hal_rcc.o"
+"exti8\stm32f1xx_hal_rcc_ex.o"
+"exti8\stm32f1xx_hal_gpio.o"
+"exti8\stm32f1xx_hal_dma.o"
+"exti8\stm32f1xx_hal_cortex.o"
+"exti8\stm32f1xx_hal_pwr.o"
+"exti8\stm32f1xx_hal_flash.o"
+"exti8\stm32f1xx_hal_flash_ex.o"
+"exti8\stm32f1xx_hal_exti.o"
+"exti8\system_stm32f1xx.o"
+--strict --scatter "EXTI8\EXTI8.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EXTI8.map" -o EXTI8\EXTI8.axf

@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"an_jian_duo_tai\startup_stm32f103xb.o"
+"an_jian_duo_tai\main.o"
+"an_jian_duo_tai\gpio.o"
+"an_jian_duo_tai\stm32f1xx_it.o"
+"an_jian_duo_tai\stm32f1xx_hal_msp.o"
+"an_jian_duo_tai\stm32f1xx_hal_gpio_ex.o"
+"an_jian_duo_tai\stm32f1xx_hal_tim.o"
+"an_jian_duo_tai\stm32f1xx_hal_tim_ex.o"
+"an_jian_duo_tai\stm32f1xx_hal.o"
+"an_jian_duo_tai\stm32f1xx_hal_rcc.o"
+"an_jian_duo_tai\stm32f1xx_hal_rcc_ex.o"
+"an_jian_duo_tai\stm32f1xx_hal_gpio.o"
+"an_jian_duo_tai\stm32f1xx_hal_dma.o"
+"an_jian_duo_tai\stm32f1xx_hal_cortex.o"
+"an_jian_duo_tai\stm32f1xx_hal_pwr.o"
+"an_jian_duo_tai\stm32f1xx_hal_flash.o"
+"an_jian_duo_tai\stm32f1xx_hal_flash_ex.o"
+"an_jian_duo_tai\stm32f1xx_hal_exti.o"
+"an_jian_duo_tai\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "an_jian_duo_tai\an_jian_duo_tai.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "an_jian_duo_tai.map" -o an_jian_duo_tai\an_jian_duo_tai.axf

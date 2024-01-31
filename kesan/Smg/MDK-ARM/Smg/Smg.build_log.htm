@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 2246756322@qq.com, 1, LIC=EXJT4-FI9TH-63LMB-28VUR-73GTK-EFMBV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\app\keil 5\keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\can\CubeMX File\STM32F\kesan\Smg\MDK-ARM\Smg.uvprojx
+Project File Date:  12/17/2023
+
+<h2>Output:</h2>
+Build target 'Smg'
+compiling main.c...
+..\Core\Smg_2023_12_17\smg.h(22): warning:  #1295-D: Deprecated declaration smg_clear_screen - give arg types
+  void smg_clear_screen();
+..\Core\Smg_2023_12_17\smg.h(23): warning:  #1295-D: Deprecated declaration smg_start - give arg types
+  void smg_start();
+..\Core\Smg_2023_12_17\smg.h(24): warning:  #1-D: last line of file ends without a newline
+  void smg_add();
+..\Core\Smg_2023_12_17\smg.h(24): warning:  #1295-D: Deprecated declaration smg_add - give arg types
+  void smg_add();
+../Core/Src/main.c(46): warning:  #177-D: variable "b" was declared but never referenced
+      uint16_t a = 0, b = 1, double_press_interval = 0;
+../Core/Src/main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=5260 RO-data=304 RW-data=56 ZI-data=1776  
+FromELF: creating hex file...
+"Smg\Smg.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\can\CubeMX File\STM32F\kesan\Smg\MDK-ARM\RTE
+  D:\app\keil 5\keil_v5\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\app\keil 5\keil_v5\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

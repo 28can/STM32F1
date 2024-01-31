@@ -1,0 +1,32 @@
+smg\smg.o: ..\Core\Smg_2023_12_17\smg.c
+smg\smg.o: ../Core/Inc/main.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+smg\smg.o: ../Core/Inc/stm32f1xx_hal_conf.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+smg\smg.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+smg\smg.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+smg\smg.o: ../Drivers/CMSIS/Include/core_cm3.h
+smg\smg.o: D:\app\keil 5\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smg\smg.o: ../Drivers/CMSIS/Include/cmsis_version.h
+smg\smg.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+smg\smg.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+smg\smg.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+smg\smg.o: D:\app\keil 5\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+smg\smg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+smg\smg.o: ../Core/Inc/tim.h
+smg\smg.o: ../Core/Inc/gpio.h
+smg\smg.o: ..\Core\Smg_2023_12_17\smg.h
